@@ -1,12 +1,12 @@
 # coffice-wizard
 
-#### framework-Introdution:
+## framework-Introdution:
 
 <p>
   coffice-wizard is integeration the jfinal and the partion of spring framework component as a rapid development,the framework's style is the same as the springboot. 
 </p>
 
-#### framework-Architecture:
+## framework-Architecture:
 
 ##### —— coffice-wizard
 ##### ———— coffice-wizard-jboot as boot framework to jfinal framework for developer used
@@ -26,20 +26,20 @@
 ##### ———————— coffice-wizard-spring-safe
 ##### ———————— coffice-wizard-spring-web
 
-#### use direction
-##### coffice-wizard-jboot's use demo or example 
+## use direction
+### coffice-wizard-jboot's use demo or example 
 <p> you can the coffice-wizard-demo project how to using the project(coffice-wizard-jboot) </p>
-##### coffice-wizard-sboot's use demo or example 
+### coffice-wizard-sboot's use demo or example 
 <p> you can the coffice-wizard-example project how to using the project(coffice-wizard-sboot) </p>
 
-#### joiner or contributor
+## joiner or contributor
 
 ##### Author: Alex.BoLi
 ##### Organization: OSFD
 ##### Developer: java
 ##### Create date: 2017-04
 
-#### author introduction
+## author introduction
 
 ##### Author cn-name: bo li en-name:Alex 
 ##### Working location: BeiJing in china
