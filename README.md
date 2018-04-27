@@ -10,7 +10,7 @@
 
 ##### —— coffice-wizard
 ##### ———— coffice-wizard-jboot as boot framework to jfinal framework for developer used
-##### ———— coffice-wizard-jfinal	 as core framework env to jfinal 
+##### ———— coffice-wizard-jfinal	 as core framework env to jboot
 ##### ———————— coffice-wizard-jfinal-base	
 ##### ———————— coffice-wizard-jfinal-bean	
 ##### ———————— coffice-wizard-jfinal-bind
@@ -18,7 +18,7 @@
 ##### ———————— coffice-wizard-jfinal-base	
 ##### ———————— coffice-wizard-jfinal-web	
 ##### ———— coffice-wizard-sboot as boot framework to spring framework for developer used
-##### ———— coffice-wizard-spring as core framework env to spring  
+##### ———— coffice-wizard-spring as core framework env to sboot 
 ##### ———————— coffice-wizard-spring-context 
 ##### ———————— coffice-wizard-spring-apidoc 
 ##### ————————- coffice-wizard-spring-jdbc
