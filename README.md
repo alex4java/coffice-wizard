@@ -28,9 +28,9 @@
 
 ## use direction
 ### coffice-wizard-jboot's use demo or example 
-<p> you can the coffice-wizard-demo project how to using the project(coffice-wizard-jboot) </p>
+##### you can the coffice-wizard-demo project how to using the project(coffice-wizard-jboot) 
 ### coffice-wizard-sboot's use demo or example 
-<p> you can the coffice-wizard-example project how to using the project(coffice-wizard-sboot) </p>
+##### you can the coffice-wizard-example project how to using the project(coffice-wizard-sboot)
 
 ## joiner or contributor
 
