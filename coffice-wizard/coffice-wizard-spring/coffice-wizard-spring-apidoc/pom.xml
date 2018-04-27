@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.hyts</groupId>
+    <artifactId>coffice-wizard-spring</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>coffice-wizard-spring-apidoc</artifactId>
+   <properties>
+  	<swagger.version>2.6.1</swagger.version>
+  	<jackson.version>2.5.1</jackson.version>
+  </properties>
+  <dependencies>
+  	<!-- Swagger -->
+    <dependency>
+ 		<groupId>io.springfox</groupId>
+ 		<artifactId>springfox-swagger2</artifactId>
+ 		<version>${swagger.version}</version>
+  	</dependency>
+  	<dependency>
+	 	<groupId>io.springfox</groupId>
+	 	<artifactId>springfox-swagger-ui</artifactId>
+	 	<version>${swagger.version}</version>
+	</dependency>
+	<!-- Jackson -->
+	<dependency>
+ 		<groupId>com.fasterxml.jackson.core</groupId>
+ 		<artifactId>jackson-core</artifactId>
+ 		<version>${jackson.version}</version>
+	</dependency>
+	<dependency>
+ 		<groupId>com.fasterxml.jackson.core</groupId>
+ 		<artifactId>jackson-annotations</artifactId>
+ 		<version>${jackson.version}</version>
+	</dependency>
+	<dependency>
+ 		<groupId>com.fasterxml.jackson.core</groupId>
+ 		<artifactId>jackson-databind</artifactId>
+ 		<version>${jackson.version}</version>
+	</dependency>
+  </dependencies>
+</project>
