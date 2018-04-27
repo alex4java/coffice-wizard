@@ -1,20 +1,32 @@
 # coffice-wizard
 
-#### framework-Introdution
+#### framework-Introdution:
 
-```
+<p>
   coffice-wizard is integeration the jfinal and the partion of spring framework component as a rapid development,the framework's style is the same as the springboot. 
-```
+</p>
 
-#### framework-Architecture
+#### framework-Architecture:
 
-##### coffice-wizard-jboot as boot framework to jfinal framework for developer used
-##### coffice-wizard-jfinal	 as core framework env to jfinal 
-##### coffice-wizard-sboot as boot framework to spring framework for developer used
-##### coffice-wizard-spring as core framework env to spring  
+##### - coffice-wizard
+##### -- coffice-wizard-jboot as boot framework to jfinal framework for developer used
+##### -- coffice-wizard-jfinal	 as core framework env to jfinal 
+##### --- coffice-wizard-jfinal-base	
+##### --- coffice-wizard-jfinal-bean	
+##### --- coffice-wizard-jfinal-bind
+##### --- coffice-wizard-jfinal-scan
+##### --- coffice-wizard-jfinal-base	
+##### --- coffice-wizard-jfinal-web	
+##### -- coffice-wizard-sboot as boot framework to spring framework for developer used
+##### -- coffice-wizard-spring as core framework env to spring  
+##### --- coffice-wizard-spring-context 
+##### --- coffice-wizard-spring-apidoc 
+##### --- coffice-wizard-spring-jdbc
+##### --- coffice-wizard-spring-mvc
+##### --- coffice-wizard-spring-safe
+##### --- coffice-wizard-spring-web
 
 #### use direction
-
 ##### coffice-wizard-jboot's use demo or example 
  you can the coffice-wizard-demo project how to using the project(coffice-wizard-jboot)
 ##### coffice-wizard-sboot's use demo or example 
@@ -30,7 +42,7 @@ Create date 2017-04
 
 #### author introduction
 
-Author cn-name: bo li en-name:Alex 
-Working location: BeiJing in china
-Be skilled in: java or python or javascript and database
-Personal blogs: www.libo2018.cn
+##### Author cn-name: bo li en-name:Alex 
+##### Working location: BeiJing in china
+##### Be skilled in: java or python or javascript and database
+##### Personal blogs: www.libo2018.cn
