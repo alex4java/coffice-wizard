@@ -1,0 +1,99 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.hyts</groupId>
+    <artifactId>coffice-wizard</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>coffice-wizard-jfinal</artifactId>
+  <packaging>pom</packaging>
+  <name>coffice-wizard-jfinal</name>
+  <description>It is base on the jfmvc framework new version framework</description>
+  <modules>
+  	<module>coffice-wizard-jfinal-base</module>
+  	<module>coffice-wizard-jfinal-bind</module>
+  	<module>coffice-wizard-jfinal-bean</module>
+  	<module>coffice-wizard-jfinal-scan</module>
+  	<module>coffice-wizard-jfinal-web</module>
+  </modules>
+  <developers>  
+        <developer>  
+            <id>hyts-jfmvc</id>  
+            <name>Alex.Lee(LiBo)</name>  
+            <email>alex.link@foxmail.com</email>  
+            <url>https://github.com/alex4java/jfmvc</url>
+            <roles>  
+                <role>Project Manager</role>  
+                <role>Project Developer</role>
+                <role>Architect</role>  
+            </roles> 
+            <organization>Alex4Dream</organization>  
+            <organizationUrl>https://github.com/Alex4Dream</organizationUrl>  
+            <properties>  
+                <dept>No</dept>  
+            </properties> 
+            <timezone>-9</timezone>  
+        </developer>  
+    </developers>  
+   
+   <licenses>
+     <license>
+       <name>The Apache License, Version 2.0</name>
+       <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+     </license>
+   </licenses>
+   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven-compiler.plugin.version>3.6.0</maven-compiler.plugin.version>
+    <maven-surefire.plugin.version>2.19.1</maven-surefire.plugin.version>
+    <jdk.version>1.8</jdk.version>
+    <junit.version>3.8.1</junit.version>
+    <jfinal.version>2.2</jfinal.version>
+    <commons.codec.version>1.10</commons.codec.version>
+    <commons.collections4.version>4.1</commons.collections4.version>
+    <commons.logging.version>1.2</commons.logging.version>
+    <log4j.version>1.2.17</log4j.version>
+    <!-- 文件拷贝时的编码 -->  
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>  
+    <!-- 扩展框架的版本控制 -->
+    <guice.version>3.0</guice.version>
+    <java.inject.version>1</java.inject.version>
+    <aopalliance.version>1.0</aopalliance.version>
+    <apache.commons.lang.version>2.6</apache.commons.lang.version>
+    <fastjson.version>1.2.31</fastjson.version>
+    <javaee.version>7.0</javaee.version>
+    <freemarker.version>2.3.20</freemarker.version>
+    <c3p0.version>0.9.0</c3p0.version>
+  </properties>
+  <dependencies>
+  	<dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>${junit.version}</version>
+          <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler.plugin.version}</version>
+				<configuration>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire.plugin.version}</version>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+		</plugins>
+  </build>
+</project>
