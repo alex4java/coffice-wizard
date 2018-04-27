@@ -8,37 +8,36 @@
 
 #### framework-Architecture:
 
-##### - coffice-wizard
-##### -- coffice-wizard-jboot as boot framework to jfinal framework for developer used
-##### -- coffice-wizard-jfinal	 as core framework env to jfinal 
-##### --- coffice-wizard-jfinal-base	
-##### --- coffice-wizard-jfinal-bean	
-##### --- coffice-wizard-jfinal-bind
-##### --- coffice-wizard-jfinal-scan
-##### --- coffice-wizard-jfinal-base	
-##### --- coffice-wizard-jfinal-web	
-##### -- coffice-wizard-sboot as boot framework to spring framework for developer used
-##### -- coffice-wizard-spring as core framework env to spring  
-##### --- coffice-wizard-spring-context 
-##### --- coffice-wizard-spring-apidoc 
-##### --- coffice-wizard-spring-jdbc
-##### --- coffice-wizard-spring-mvc
-##### --- coffice-wizard-spring-safe
-##### --- coffice-wizard-spring-web
+##### —— coffice-wizard
+##### ———— coffice-wizard-jboot as boot framework to jfinal framework for developer used
+##### ———— coffice-wizard-jfinal	 as core framework env to jfinal 
+##### ———————— coffice-wizard-jfinal-base	
+##### ———————— coffice-wizard-jfinal-bean	
+##### ———————— coffice-wizard-jfinal-bind
+##### ———————— coffice-wizard-jfinal-scan
+##### ———————— coffice-wizard-jfinal-base	
+##### ———————— coffice-wizard-jfinal-web	
+##### ———— coffice-wizard-sboot as boot framework to spring framework for developer used
+##### ———— coffice-wizard-spring as core framework env to spring  
+##### ———————— coffice-wizard-spring-context 
+##### ———————— coffice-wizard-spring-apidoc 
+##### ————————- coffice-wizard-spring-jdbc
+##### ———————— coffice-wizard-spring-mvc
+##### ———————— coffice-wizard-spring-safe
+##### ———————— coffice-wizard-spring-web
 
 #### use direction
 ##### coffice-wizard-jboot's use demo or example 
- you can the coffice-wizard-demo project how to using the project(coffice-wizard-jboot)
+<p> you can the coffice-wizard-demo project how to using the project(coffice-wizard-jboot) </p>
 ##### coffice-wizard-sboot's use demo or example 
- you can the coffice-wizard-example project how to using the project(coffice-wizard-sboot)
+<p> you can the coffice-wizard-example project how to using the project(coffice-wizard-sboot) </p>
 
 #### joiner or contributor
 
-Author Alex.BoLi
-Organization OSFD
-Developer java
-Create date 2017-04
-
+##### Author: Alex.BoLi
+##### Organization: OSFD
+##### Developer: java
+##### Create date: 2017-04
 
 #### author introduction
 
