@@ -8,19 +8,24 @@
   <artifactId>coffice-wizard-jfinal-web</artifactId>
    <!-- 依赖关系 -->
   <dependencies>
-  	<dependency>
+  	<!-- 	<dependency>
 		<groupId>com.hyts.jfmvc</groupId>
 		<artifactId>hyts-jfmvc-bind</artifactId>
 		<version>1.0.1</version>
-	</dependency>
-	<dependency>
+	</dependency> -->
+	<!-- <dependency>
 		<groupId>com.hyts.jfmvc</groupId>
 		<artifactId>hyts-jfmvc-model</artifactId>
 		<version>1.0.1</version>
-	</dependency>
+	</dependency> -->
 	<dependency>
     	<groupId>com.hyts</groupId>
     	<artifactId>coffice-wizard-jfinal-scan</artifactId>
+		<version>1.0.0</version>
+	</dependency>
+	<dependency>
+    	<groupId>com.hyts</groupId>
+    	<artifactId>coffice-wizard-jfinal-bind</artifactId>
 		<version>1.0.0</version>
 	</dependency>
 	</dependencies>
